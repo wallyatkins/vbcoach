@@ -1,0 +1,33 @@
+volleyball-coaching-app/
+├── apps/
+│   ├── api/                    # The PHP backend application
+│   │   ├── config/             # Database and application configuration
+│   │   ├── controllers/        # Handles API routes and calls services
+│   │   ├── models/             # Data models and validation logic
+│   │   ├── repositories/       # Data access layer (Repository Pattern)
+│   │   ├── services/           # Business logic layer
+│   │   ├── public/             # Publicly accessible files
+│   │   └── index.php           # API entry point
+│   └── web/                    # The React frontend application
+│       ├── public/             # Static assets (HTML, images)
+│       ├── src/                # React source code
+│       │   ├── api/            # API service layer (data fetching logic)
+│       │   ├── assets/         # Images, fonts, etc.
+│       │   ├── components/     # Reusable UI components
+│       │   ├── pages/          # Application pages/views
+│       │   ├── state/          # State management logic
+│       │   ├── styles/         # Global styles and themes
+│       │   └── index.js        # React app entry point
+│
+├── packages/                   # Shared code and utilities
+│   └── shared/                 # Code shared between the frontend and backend
+│       └── types/              # TypeScript/PHP data type definitions
+│
+├── scripts/                    # Utility scripts for development
+│   └── setup.sh                # Monorepo setup script
+│
+├── .gitignore
+├── README.md
+├── package.json                # Root package.json for monorepo
+├── composer.json               # PHP dependency management
+└── ...                         # Other project config files
