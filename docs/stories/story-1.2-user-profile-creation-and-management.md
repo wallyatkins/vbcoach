@@ -1,6 +1,6 @@
 # Story 1.2: User Profile Creation and Management
 
-**Status**: Draft
+**Status**: Completed
 
 **Story**
 **As a** Coach,
@@ -14,15 +14,15 @@
 4.  User accounts can be enabled/disabled.
 
 **Tasks / Subtasks**
-- [ ] **Task 1: Create User Profile UI (AC: #1, #2)**
-    - [ ] Design a form for creating and editing user profiles.
-    - [ ] Implement the React component for the user profile form.
-- [ ] **Task 2: Backend for Profile Management (AC: #1, #2, #4)**
-    - [ ] Create API endpoints for creating, reading, updating, and disabling user profiles.
-    - [ ] Implement the business logic for profile management in the backend.
-- [ ] **Task 3: Frontend Profile Viewing (AC: #3)**
-    - [ ] Create a view for users to see their own profile.
-    - [ ] Implement the logic to fetch and display the user's own data.
+- [x] **Task 1: Create User Profile UI (AC: #1, #2)**
+    - [x] Design a form for creating and editing user profiles.
+    - [x] Implement the React component for the user profile form.
+- [x] **Task 2: Backend for Profile Management (AC: #1, #2, #4)**
+    - [x] Create API endpoints for creating, reading, updating, and disabling user profiles.
+    - [x] Implement the business logic for profile management in the backend.
+- [x] **Task 3: Frontend Profile Viewing (AC: #3)**
+    - [x] Create a view for users to see their own profile.
+    - [x] Implement the logic to fetch and display the user's own data.
 
 **Dev Notes**
 *   **Tech Stack**: PHP (backend), React (frontend), PostgreSQL (database), Apache (web server).
