@@ -8,6 +8,8 @@ web-bundles/
 # Dependencies
 /node_modules
 /vendor
+/api/vendor
+/api/db
 /build
 /dist
 
@@ -42,3 +44,5 @@ yarn-error.log*
 .npm
 .yarn-integrity
 coverage/
+api/tests/server.pid
+api/tests/server.port

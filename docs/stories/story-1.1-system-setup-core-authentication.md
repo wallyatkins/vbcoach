@@ -1,6 +1,6 @@
 # Story 1.1: System Setup and Core Authentication
 
-**Status**: Approved
+**Status**: Completed
 
 **Story**
 **As a** system administrator,

@@ -1,22 +1,22 @@
-import { useState, useEffect } from 'react';
 import './App.css';
+import CreateUserForm from './components/CreateUserForm';
+import EditUserForm from './components/EditUserForm';
+import UserProfile from './components/UserProfile';
 
 function App() {
-  const [status, setStatus] = useState('loading...');
-
-  useEffect(() => {
-    fetch('/api/health-check')
-      .then((res) => res.json())
-      .then((data) => setStatus(data.status))
-      .catch(() => setStatus('error'));
-  }, []);
-
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Volleyball Coach</h1>
-        <p>API Status: {status}</p>
+        <h1>VBCoach</h1>
       </header>
+      <main>
+        <CreateUserForm />
+        <hr />
+        {/* Hardcoded userId for now, this would come from app state */}
+        <EditUserForm userId={1} onUserUpdated={() => console.log('User updated!')} />
+        <hr />
+        <UserProfile userId={1} />
+      </main>
     </div>
   );
 }
